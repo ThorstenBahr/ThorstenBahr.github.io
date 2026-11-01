@@ -1,0 +1,10 @@
+# TB VisionConcepts – Status "in Gründung".
+# Bis zum offiziellen Go-Live (nach §34d-Zulassung / Ende der Ausschließlichkeit)
+# soll die Seite NICHT indexiert werden.
+#
+# Zum Launch: diese Datei auf "Allow" umstellen (Disallow-Zeile entfernen),
+# in src/layouts/BaseLayout.astro noindex=false setzen und in public/_headers
+# die X-Robots-Tag-Zeile entfernen.
+
+User-agent: *
+Disallow: /
