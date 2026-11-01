@@ -5,8 +5,6 @@
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), camera=(), microphone=()
-  # Vor Go-Live: verhindert Indexierung auch serverseitig. Zum Launch entfernen.
-  X-Robots-Tag: noindex, nofollow
 
 # Gehashte Astro-Assets sind unveränderlich -> lange cachen.
 /_astro/*
